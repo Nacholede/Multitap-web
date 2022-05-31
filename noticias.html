@@ -5,12 +5,14 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,300&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
     <title>Noticias</title>
-    
+    <link rel="stylesheet" href="style.css">
+
 </head>
 
 <body>
@@ -27,15 +29,50 @@
         </nav>
     </header>
     <h1 class="noticias-titulo">Noticias</h1>
+    <h3 class="mas-visto-noticias p-5">Lo mas visto</h3>
     <section class="noticias-contenedor">
+        <!-- Carousel placeholder -->
+        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                    aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                    aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="Imagenes/ps-plus-thumbnail.jpeg" class="d-block w-100 h-100" alt="PS Plus thumbnail">
+                    <div class="carousel-caption d-none d-md-block">
+                        <p>Primer vistazo a juegos de PS1 y PS2 en PS Plus</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/state-of-play-2.jpeg" class="d-block w-100" alt="State of Play Junio">
+                    <div class="carousel-caption d-none d-md-block">
 
+                        <p>Sony anuncia una nueva State of Play</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="Imagenes/gran-turismo-7.jpg" class="d-block w-100" alt="Gran Turismo 7 pelicula">
+                    <div class="carousel-caption d-none d-md-block">
 
-        <div class="noticia-header">
-            <a href="noticia-ya-no-hay-mas-fifa-ea-cambia-el-nombre-de-su-aclamada-franquicia-de-futbol">
-                <h3> Ya no hay mas FIFA, EA cambia el nombre de su aclamada franquicia de futbol</h3>
-                <img class="noticia-header-img" src="Imagenes/ea-fc-thumbnail.jpg" alt="foto de ea fc">
-
-            </a>
+                        <p>La adaptacion de Gran Turismo va a ser una pelicula </p>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
 
         <div class="noticia-item-1">
@@ -51,26 +88,32 @@
         <div class="noticia-item-2">
             <a href="gotham-knights-no-saldra-en-xbox-one-y-playstation-4">
                 <h3> Gotham Knights no saldra en Xbox One y Playstation 4</h3>
-                <img class="noticia-image-2" src="Imagenes/gotham-knights-thumbnail.jpg" alt="thumbnail gotham knights">
+                <img class="noticia-image-2"
+                    src="Imagenes/wb-changes-batgirls-gotham-knights-biography-following-criti_nnts.jpg"
+                    alt="thumbnail gotham knights">
             </a>
         </div>
 
         <div class="noticia-item-3">
             <a href="se-confirma-la-fecha-de-salida-del-nuevo-call-of-duty">
                 <h3> Se confirma la fecha de salida del nuevo Call of Duty</h3>
-                <img class="noticia-image-3" src="Imagenes/mw2-thumbnail.jpg" alt="thumbnail call of duty modern warfare 2 2022">
+                <img class="noticia-image-3" src="Imagenes/mw2-thumbnail.jpg"
+                    alt="thumbnail call of duty modern warfare 2 2022">
             </a>
         </div>
 
         <div class="noticia-item-4">
             <a href="norman-reedus-confirma-la-secuela-de-death-stranding">
                 <h3> Norman Reedus confirma la secuela de Death Stranding</h3>
-                <img class="noticia-image-4" src="Imagenes/death-stranding-thumbnail.jpeg" alt="thumbnail death stranding">
+                <img class="noticia-image-4" src="Imagenes/death-stranding-thumbnail.jpeg"
+                    alt="thumbnail death stranding">
             </a>
         </div>
 
         <div class="twitter-iframe">
-            <a class="twitter-timeline" data-width="320" data-height="500" data-theme="dark" href="https://twitter.com/multitap_arg?ref_src=twsrc%5Etfw">Tweets by multitap_arg</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+            <a class="twitter-timeline" data-width="320" data-height="500" data-theme="dark"
+                href="https://twitter.com/multitap_arg?ref_src=twsrc%5Etfw">Tweets by multitap_arg</a>
+            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
         </div>
 
@@ -140,7 +183,7 @@
 
 
 
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 
 </html>
