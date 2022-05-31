@@ -164,37 +164,6 @@ p {
     
 }
 
-.reviews {
-    padding: 20px;
-    margin: 15px;
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: repeat(2, 1fr) ;    
-    gap: 50px;
-    justify-items: flex-start;
-    
-
-}
-
-.review-1 {
-    width: 100%;
-    grid-column: 1;
-    grid-row: 1;
-}
-
-.review-2 {
-    width: 100%;
-    grid-column: 2;
-    grid-row: 1;
-}
-
-.review-3 {
-    width: 100%;
-    grid-column: 1;
-    grid-row: 2;
-}
-
-
 
 .noticia-image-1 {
     width: 100%;
