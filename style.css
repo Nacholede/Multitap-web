@@ -97,6 +97,8 @@ h3 {
 }
 
 .multimedia {
+    padding: 30px;
+    margin: 90px;
     display: flex;
     justify-content: space-around;
 }
