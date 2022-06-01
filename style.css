@@ -216,6 +216,16 @@ p {
     grid-row: 1;
 }
     
+.mas-leidos {
+    background-color: black;
+    border-radius: 10px;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
+
 
 
 .profile-picture-ignacio {
