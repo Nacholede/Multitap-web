@@ -165,52 +165,7 @@ p {
 }
 
 
-.noticia-image-1 {
-    width: 100%;
-}
 
-.noticia-image-2 {
-    width: 100%;
-}
-.noticias-contenedor {
-    padding: 30px;
-    margin: 40px;
-    
-    
-    /* Grid */
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 1fr;    
-    gap: 30px;
-    justify-items: flex-start;
-    
-    
-}
-
-
-.noticia-header { 
-    grid-area: auto;
-}
-
-.noticia-item-1 {
-    grid-column: 1;
-    grid-row: 2;
-}
-
-.noticia-item-2 {
-    grid-column: 2;
-    grid-row: 2;
-}
-
-.noticia-item-3 {
-    grid-column: 1;
-    grid-row: 3;
-}
-
-.noticia-item-4 {
-    grid-column: 2 ;
-    grid-row: 3;
-}
 .twitter-iframe {
     grid-column: 3;
     grid-row: 1;
