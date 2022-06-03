@@ -51,6 +51,7 @@ h3 {
 .index-nav {
     border: 2px solid;
     background-image: url(Imagenes/360_F_317252997_PTMtgySTVs3OqZhQTb7FON73ZOas83CO.jpg);
+   
     
 }
 
@@ -58,7 +59,11 @@ h3 {
     list-style-type: none;
     display: flex;
     justify-content: space-around;
+    padding: 0;
+    margin: 0;
+  
 }
+
 
 
 .showcase {
@@ -183,18 +188,3 @@ li {
 
 
 
-.profile-picture-ignacio {
-    padding: 50px;
-}
-
-
-.profiles {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}
-
-.title-quienes-somos {
-    display: flex;
-    justify-content: center;
-}
