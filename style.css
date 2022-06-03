@@ -39,6 +39,15 @@ h3 {
    
 }
 
+.ultimas-noticias {
+    background-color: rgba(0, 0, 0, 0.685);
+    
+}
+
+.ultimas-noticias-header {
+    color: blueviolet;
+}
+
 .index {
     font-size: large;
     background-size: 500px;
