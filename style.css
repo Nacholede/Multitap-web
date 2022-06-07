@@ -150,6 +150,9 @@ h3 {
 }
 
 .youtube {
+    background-color: rgba(0, 0, 0, 0.685);
+}
+.youtube-container {
     padding: 30px;
     margin: 10px;
     width: 100%;
@@ -157,6 +160,10 @@ h3 {
     justify-content: space-between;
     align-items: center;
 
+}
+
+.youtube-title {
+    color: blueviolet;
 }
 
 .youtube-header {
