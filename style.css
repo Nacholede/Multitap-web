@@ -8,10 +8,23 @@ body {
   
 }
 
+.navbar {
+    background-image: url(Imagenes/HD-wallpaper-dark-purple-blue-dark-purple.jpg);
+    
+}
 a {
     text-decoration: none;
 }
 
+.navbar-nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar-collapse {
+    display: flex;
+    justify-content: space-between;
+}
 
 .logo {
   width: 40%;
