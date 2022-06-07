@@ -152,9 +152,11 @@ h3 {
 .youtube {
     padding: 30px;
     margin: 10px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .youtube-header {
