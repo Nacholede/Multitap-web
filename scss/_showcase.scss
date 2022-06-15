@@ -1,0 +1,27 @@
+.showcase {
+    padding: 30px;
+    border: 20px;
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+.showcase-imagenes:hover {
+    transform: scale(1.2);
+    
+}
+
+.showcase-imagenes {
+   transition: all 0.5s;
+}
+
+.image-showcase-1, .image-showcase-2 , .image-showcase-3 {
+  width: 75%;
+   
+   
+}
+
+
+   
+}
