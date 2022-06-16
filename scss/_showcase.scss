@@ -2,9 +2,7 @@
     padding: 30px;
     border: 20px;
     margin: 30px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    @include alineacion (flex, space-around, center) ;
 
 
 .showcase-imagenes:hover {

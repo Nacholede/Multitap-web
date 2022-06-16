@@ -3,6 +3,6 @@
     justify-content: flex-end;
 }
 p {
-    color: azure;
+    color: nth($list: $colores, $n: 3);
     
 }

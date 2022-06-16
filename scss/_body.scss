@@ -1,13 +1,12 @@
 body {
-    background-color: rgb(133, 0, 133) ;
+    background-image: url("Imagenes/Fondo");
     font-family: "poppins", sans-serif;
-    background-image: url(Imagenes/Fondo.jpg);
     background-repeat: no-repeat;
     background-position: 100%;
     background-attachment: fixed;
 
   h1 {
-    color: azure;
+    color: $textoprimario;
     padding: 30px;
     
     }
@@ -16,10 +15,10 @@ body {
     h2 {
     padding: 20px;
     font-style: italic;
-    color: azure;
+    color: nth($colores, 3);
     }
 
     h3 {
-    color: azure;
+    color: $textoprimario;
    }
 }

@@ -1,5 +1,5 @@
 .mas-leidos {
-    background-color: black;
+    background-color: nth($list: $colores, $n: 4);
     border-radius: 10px;
     list-style-type: none;
 }

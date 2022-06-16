@@ -5,7 +5,7 @@
 }
 
 .index-a {
-    color: azure;
+    color: $textoprimario;
 }
 .index-nav {
     border: 2px solid;
@@ -14,14 +14,7 @@
     
 }
 
-.index-ul {
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    padding: 0;
-    margin: 0;
-  
-}
+
 
 .navbar {
     background-image: url(Imagenes/HD-wallpaper-dark-purple-blue-dark-purple.jpg);
@@ -29,24 +22,21 @@
 }
 
 .post-info {
-    color: azure;
+    color: $textoprimario;
 }
 a {
     text-decoration: none;
 }
 
 .navbar-nav {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+    @include alineacion (flex, space-around, center) ;
 }
 
 .nav-link {
-    color: azure;
+    color: $textoprimario;
 }
 .navbar-collapse {
-    display: flex;
-    justify-content: space-between;
+    @include flex (flex, space-between) ;
    
 }
 
