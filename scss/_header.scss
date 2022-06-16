@@ -41,9 +41,17 @@ a {
     align-items: center;
 }
 
+.nav-link {
+    color: azure;
+}
 .navbar-collapse {
     display: flex;
     justify-content: space-between;
+   
+}
+
+li {
+    color: azure;
 }
 
 .logo {
@@ -54,7 +62,7 @@ a {
 
 @media screen and (max-width: 993px) {
     .logo {
-        width: 50%;
+        width: 60%;
         padding: 10px;
         margin: 20px;
     }

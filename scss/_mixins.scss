@@ -1,11 +1,7 @@
-@mixin flexCenter {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+@mixin alineacion ($display, $alineacion, $alineacionitems){
+    display: $display;
+    justify-content: $alineacion;
+    align-items: $alineacionitems;
 }
 
-@mixin flexAround {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-}

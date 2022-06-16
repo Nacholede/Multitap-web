@@ -25,3 +25,11 @@
 
    
 }
+
+@media screen and (max-width: 540px) {
+  .showcase {
+      display: flex;
+      flex-direction: column;
+}
+
+}
