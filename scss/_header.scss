@@ -35,10 +35,7 @@ a {
 .nav-link {
     color: $textoprimario;
 }
-.navbar-collapse {
-    @include flex (flex, space-between) ;
-   
-}
+
 
 li {
     color: azure;

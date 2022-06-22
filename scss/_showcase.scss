@@ -1,12 +1,10 @@
 .showcase {
-    padding: 30px;
-    border: 20px;
-    margin: 30px;
+    
     @include alineacion (flex, space-around, center) ;
 
 
 .showcase-imagenes:hover {
-    transform: scale(1.2);
+    transform: scale(1.05);
     
 }
 
@@ -28,6 +26,8 @@
   .showcase {
       display: flex;
       flex-direction: column;
+      justify-content: center;
+      align-items: center;
 }
 
 }
