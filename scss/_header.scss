@@ -23,18 +23,22 @@ a {
     text-decoration: none;
 }
 
+.nav-item {
+    color: azure !important ;
+}
+
 .navbar-nav {
     @include alineacion (flex, space-around, center) ;
 }
+
 
 .nav-link {
     color: $textoprimario;
 }
 
 
-li {
-    color: azure;
-}
+
+
 
 .logo {
   width: 40%;

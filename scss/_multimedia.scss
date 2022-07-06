@@ -31,7 +31,6 @@
 }
 
 
-
 .youtube-title {
     color: $titulosecundario;
     
@@ -75,13 +74,23 @@ h3:hover{
     }
 }
 
-@media screen and (min-width: 993px){
+@media screen and (min-width: 1281px){
     .youtube-link-1, .youtube-link-2, .youtube-link-3 {
         width: 480px;
-        height: 320px;
+        height: 360px;
     }
     
 }
+
+@media screen and (max-width: 1280px){
+    .youtube-link-1, .youtube-link-2, .youtube-link-3 {
+        width: 360px;
+        height: 240px;
+    }
+    
+}
+
+
 
 @media screen and (max-width: 600px) {
     .carousel-inner, .carousel-slide, .carousel-control-prev, .carousel-control-next {
